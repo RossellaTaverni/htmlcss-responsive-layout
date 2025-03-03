@@ -6,3 +6,53 @@
 .recipe-video{
     margin-bottom: 45px;
 }
+
+/* RESPONSIVE */
+@media screen and (min-width:768px) {
+    
+    #topbar{
+        justify-content: left;
+    }
+
+    .container{
+        padding: 20px;
+    }
+    
+    .recipe-origin{
+        display: block;
+        margin-left: 8px;
+    }
+
+    .recipe-name{
+        display: flex;
+        font-size: 35px;
+    }
+
+    .recipe-video{
+        margin-bottom: 70px;
+    }
+
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    li{
+      width: calc(100% / 3);  
+    }
+
+    .btn{
+        padding: 10px 50px;
+    }
+
+    .ads{
+        display: block;
+    }
+
+    .clearfix > img{
+        display: inline;
+        float: left;
+        margin-right: 8px;
+    }
+
+}
