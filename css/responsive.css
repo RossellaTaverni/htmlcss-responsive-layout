@@ -1,1 +1,8 @@
 /* Soluzione qui */
+.recipe-video > img{
+    max-width: 100%;
+}
+
+.recipe-video{
+    margin-bottom: 45px;
+}
