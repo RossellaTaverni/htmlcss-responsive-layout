@@ -8,6 +8,8 @@
 }
 
 /* RESPONSIVE */
+
+/* TABLET */
 @media screen and (min-width:768px) {
     
     #topbar{
@@ -55,4 +57,63 @@
         margin-right: 8px;
     }
 
+}
+
+/* DESKTOP */
+@media screen and (min-width:992px) {
+    .recipe-card{
+        display: flex;
+    }
+
+    li{
+        width: 100%;
+
+    }
+
+    .quick-notes ul > li{
+        margin-bottom: 0px;
+    }
+
+    .recipe-video{
+        height: auto;
+    }
+
+    .social-networks .label{
+        display: block;
+    }
+
+    .btn{
+        display: flex;
+    }
+
+    .label{
+        padding-left: 5px;
+    }
+
+    i{
+        margin-top: 2px;
+    }
+
+    button .btn{
+        width: calc(100% / 5s);
+    }
+
+    address{
+        text-align: left;
+        width: 50%;
+    }
+
+    footer{
+        display: flex;
+    }
+
+    nav{
+        display: flex;
+        width: 50%;
+    }
+
+    footer ul{
+        display: contents;
+        text-align: right;
+    }
 }
